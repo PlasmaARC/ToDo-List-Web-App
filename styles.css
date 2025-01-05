@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+article{
+    background-color: antiquewhite;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.task{
+    display: flex;
+    gap: 10px;
+}
+
+#task{
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    padding: 7px;
+    border-radius: 20px;
+    background: none;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
+.function{
+    display: flex;
+    gap: 8px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+
+}
+
+footer{
+    background-color: brown;
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+.list{
+    background-color: black;
+    color: white;
+    width: 85%;
+    height: 50px;
+    margin: 5px auto;
+}
+
+span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+}
