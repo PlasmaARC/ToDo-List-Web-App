@@ -1,8 +1,9 @@
-#JavaScript Projects
-This is a self challenge taken by me to master the Javascript. I will be making 10 Javascript Projects which willhelp me master Javascript(I am claiming it by myself.) ..Still a long way to go..
+# JavaScript Projects
+This is a task I set for myself to become proficient in Javascript. I'll be working on ten JavaScript projects that will help me become proficient in the language (I'm claiming this on my own). There is still plenty to do.
 
-I have learn all of the basics fundamentals of the language and alos some of the popular frameworks and libraries of the Javascript. I know React.js, Next.js, Angular.js and still learning. From this point on only going to make projects on all this topics.
+I've studied all of the language's foundational concepts as well as some of the most well-liked JavaScript frameworks and modules. I am still learning, but I am familiar with React.js, Next.js, and Angular.js. I'm only going to create projects on all of these subjects from now on.
+
 
 ```
-First Step: I will be making 5 basic Javascript Projects.
+First Project: Made a Todo List App.
 ````
